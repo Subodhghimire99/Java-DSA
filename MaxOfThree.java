@@ -1,17 +1,16 @@
 import java.util.Scanner;
+
 class MaxOfThree {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         int b = in.nextInt();
         int c = in.nextInt();
-        int max = a;
-        if (b>a){
-            max = b;
-        }
-        else{
-            max = c;
-        }
+        int max = Math.max(a,b);
+        max = Math.max(max,c);
         System.out.println("Maximum number of " + a +"," + b +"," + c + " is " + max);
     }
 }
+
+// Hey wanna try a hackathon from chainlink? https://docs.chain.link/docs/hackathon-resources/ 
+// https://chain.link/hackathon
