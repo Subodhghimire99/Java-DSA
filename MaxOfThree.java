@@ -11,6 +11,3 @@ class MaxOfThree {
         System.out.println("Maximum number of " + a +"," + b +"," + c + " is " + max);
     }
 }
-
-// Hey wanna try a hackathon from chainlink? https://docs.chain.link/docs/hackathon-resources/ 
-// https://chain.link/hackathon
